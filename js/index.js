@@ -1,1 +1,19 @@
-const fades=document.querySelectorAll(".fade");window.addEventListener("scroll",()=>{fades.forEach(e=>{e.getBoundingClientRect().top<window.innerHeight-100&&e.classList.add("show")})});const footer=document.querySelector("#footer"),currentYear=(new Date).getFullYear();footer.innerText=`© ${currentYear} D'Luxxe Manufacturing Corp. All Rights Reserved.`,document.addEventListener("contextmenu",e=>{e.preventDefault()});
+const fades = document.querySelectorAll(".fade");
+window.addEventListener("scroll", () => {
+    fades.forEach((e) => {
+        e.getBoundingClientRect().top < window.innerHeight - 100 && e.classList.add("show");
+    });
+});
+const footer = document.querySelector("#footer"),
+    currentYear = new Date().getFullYear();
+(footer.innerText = `© ${currentYear} D'Luxxe Manufacturing Corp. All Rights Reserved.`),
+    document.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+    });
+
+
+
+
+
+
+
