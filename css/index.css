@@ -1,3 +1,40 @@
+@import "./facialSets.css";
+
+
+
+
+
+
+
+/*custom scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f5c76a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff0e90;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+
+
+
+
+
 body,
 nav ul li a {
     color: #fff;
